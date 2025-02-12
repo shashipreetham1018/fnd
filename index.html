@@ -1,1 +1,30 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <img src="/static/logo.png" alt="Website Logo" class="logo">
+        <h1>Fake News Detector</h1>
+    </header>
+    
+    <main class="container">
+        <section class="intro">
+            <h2>Verify the Authenticity of News</h2>
+            <p>Enter a news article below to check if it's real or fake.</p>
+        </section>
+        <form action="/predict" method="post" class="news-form">
+            <textarea name="news_text" placeholder="Paste the news article here..." required></textarea>
+            <button type="submit">Verify News</button>
+        </form>
+    </main>
+    <footer>
+        <p>Fake News Detection<img src="/static/instagram.png" alt="Instagram" width="20" height="20">@Shashi_Preetham_ </p>
+        </footer>
+</body>
+</html>
