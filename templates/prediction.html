@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fake News Detector</h1>
+    </header>
+    <main class="container">
+        <h2>Prediction Result</h2>
+        <p class="news-text"><strong>News:</strong> {{ news_text }}</p>
+        <h2 class="result {{ 'fake' if prediction == 'Fake News' else 'real' }}">
+            {{ prediction }}
+        </h2>
+        <a href="/" class="back-btn">Check Another News</a>
+    </main>
+    <footer>
+        <p>Powered by Machine Learning | Fake News Detection</p>
+    </footer>
+</body>
+</html>
