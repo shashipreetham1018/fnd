@@ -1,0 +1,5 @@
+home = C:\Users\medip\anaconda3
+include-system-site-packages = false
+version = 3.11.5
+executable = C:\Users\medip\anaconda3\python.exe
+command = C:\Users\medip\anaconda3\python.exe -m venv C:\Users\medip\Downloads\fake_news_detection\venv
